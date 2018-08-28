@@ -1,0 +1,163 @@
+/* 上下左右图片固定 */
+/* http://www.coolsite360.com/sites/lvvxno/preview/ */
+	.zj,.s,.x,.z,.y{
+		width:100%;
+		height:100%;
+		background:url("../img/news_bg.jpg");
+        background-size: cover;
+        /* z-index:100; */
+	}
+	.zj{
+		position:fixed;
+		left:0;
+		top:0;
+        z-index:-100;  
+	}
+	.s,.x,.z,.y{position:fixed;z-index:100;}
+	.s,.x{height:50px;left:0;}
+	.z,.y{width:50px;top:0px;}
+	.s{top:0;}
+	.x{bottom:0;}
+    .z{left:0;}
+    .y{right:0;} 
+    a,p{text-decoration: none;color:#3e393e;}
+    /* 中间大图 */
+    div.ct-img>img{
+        width:100%;
+        margin:0 auto;
+    }
+    .touch{
+        margin:auto;
+        background:transparent;
+        border:15px solid white;
+        width:220px;
+        height:220px;
+        text-decoration: none;
+        line-height:180px;
+        position:absolute;
+        display:inline-block;
+        margin:auto;
+        left:0;
+        right:0;
+        top:0;
+        bottom:5%;
+        transition:all 2s ease;
+    }
+    .touch:hover{
+        border:15px solid #3e393e;
+        background:white;
+        /* color:black; */
+        opacity:.6;
+    }
+    .touch:hover .a1font{color:#3e393e;}
+    .a1font{
+	    color:white;
+        text-align:center;
+        font-size:24px;
+        margin-top:20px;
+	    transition:all 2s ease;
+}
+
+    /************************中间图片******************************/
+     div.bg{
+         width:90%;
+         height:55em;
+         /* border: 1px solid red; */
+         margin:0 auto;
+         display:flex;
+         flex-wrap:wrap;
+         justify-content:space-between;
+         position: relative;
+     }
+
+     div.pic{
+         width:40%;
+         height:70%;
+         margin: 0 auto;
+         margin-top:7.5%;
+         /* border:1px solid red; */
+         position: relative;
+     }
+     .pic>img{
+         width: 100%;
+         height: 100%;
+     }
+
+     .a1{
+        width: 60%;
+        height: 10%;
+        /* border: 1px solid red; */
+        position:absolute;
+        top:30%;
+        left:20%;
+    }
+    .a1>a{
+        color:gray;
+        transition: all 1s linear;
+     }
+     .a1>a:hover{
+         color:black;
+     }
+     .a2{
+        width: 15%;
+        height: 10%;
+        /* border: 1px solid red; */
+        position:absolute;
+        top:75%;
+        left:50%;
+    }
+    .a2>a{
+        display:block;
+        transition: all 1s linear;
+     }
+     .a2>a:hover{
+        transform:translateX(60px);
+     }
+    /* -------------------最后一个模块-------------------- */
+    /* 第一个 模块 */
+    .ww1{
+        /* border: 1px solid red; */
+        width:90%;
+        height:50em;
+        margin:0 auto;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        position: relative;
+    }
+  .imgs{
+      /* border:1px solid red; */
+      width:25%;
+      height:60%;
+      margin:0 auto;
+      margin-top: 5%;
+  }
+  .imgs>img{
+    width:100%;
+    height:100%;
+    margin:4.5% auto;
+}
+.imgs>p{
+    width:300px;
+    height:30px;
+    margin:0 auto;
+    margin-top:30px;
+}
+
+.imgs>a{
+    display:block;
+    width:120px;
+    height:30px;
+    margin:0 auto;
+    margin-top:30px;
+    color:#3e393e;
+    font-size:18px; 
+    text-decoration: none;
+    transition: all 1s linear;
+}
+.imgs>a:hover{
+    color:black;
+    transform:translateX(60px);
+}
+
+/**************最后动画*********************/

@@ -1,0 +1,941 @@
+@media screen and (min-width: 1920px) {
+    .zx5 .d1 {
+        width: 900px;
+        height: 350px;
+        position: relative;
+        margin-top: 50px;
+        left: 22%;
+        overflow: hidden;
+        opacity: 0;
+    }
+    @keyframes dydh {
+        0% {
+            opacity: 0;
+            left: 47%;
+        }
+        100% {
+            opacity: 1;
+            left: 49%;
+        }
+    }
+    @keyframes dydh1 {
+        0% {
+            opacity: 0;
+            right: 47%;
+        }
+        100% {
+            opacity: 1;
+            right: 48.78%;
+        }
+    }
+    .zx4 .case {
+        padding: 50px 0 0 0;
+        width: 90%;
+        margin-left: 21%;
+        display: inline-block;
+    }
+    .zx4 .case img {
+        width: 100px;
+        height: 119px;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width:1919px) {
+    .zx5 .d1 {
+        width: 900px;
+        height: 350px;
+        position: relative;
+        margin-top: 50px;
+        left: 10%;
+        overflow: hidden;
+        opacity: 0;
+    }
+    @keyframes dydh {
+        0% {
+            opacity: 0;
+            left: 47%;
+        }
+        100% {
+            opacity: 1;
+            left: 48.6%;
+        }
+    }
+    @keyframes dydh1 {
+        0% {
+            opacity: 0;
+            right: 47%;
+        }
+        100% {
+            opacity: 1;
+            right: 48.2%;
+        }
+    }
+    .zx4 .case {
+        padding: 50px 0 0 0;
+        width: 90%;
+        margin-left: 10%;
+        display: inline-block;
+    }
+    .zx4 .case img {
+        width: 100px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .zx5 .d1 {
+        width: 900px;
+        height: 350px;
+        position: relative;
+        margin-top: 50px;
+        left: 10%;
+        overflow: hidden;
+        opacity: 0;
+    }
+    @keyframes dydh {
+        0% {
+            opacity: 0;
+            left: 47%;
+        }
+        100% {
+            opacity: 1;
+            left: 48.6%;
+        }
+    }
+    @keyframes dydh1 {
+        0% {
+            opacity: 0;
+            right: 47%;
+        }
+        100% {
+            opacity: 1;
+            right: 48.2%;
+        }
+    }
+    .zx4 .case {
+        padding: 50px 0 0 0;
+        width: 90%;
+        margin-left: 10%;
+        display: inline-block;
+    }
+    .zx4 .case img {
+        width: 100px;
+        height: 120px;
+    }
+}
+
+
+/*四边 底层 大图*/
+
+body {
+    padding: 50px;
+}
+
+.foot_lc {
+    float: right;
+    margin-right: 50px;
+}
+
+.foot_lc li {
+    float: left;
+    margin-left: 15px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.foot_lc li a {
+    color: rgb(125, 125, 125)!important;
+}
+
+.foot_lc li a:hover {
+    color: rgb(0, 0, 0)!important;
+}
+
+.zj,
+.s,
+.x,
+.z,
+.y,
+.zx {
+    width: 100%;
+    height: 100%;
+    background: url("../../img/index/big，back.jpg");
+    background-size: cover;
+}
+
+.zj {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -500;
+    height: 9999px;
+}
+
+.s,
+.x,
+.z,
+.y {
+    position: fixed;
+    z-index: 500;
+    height: 9999px;
+}
+
+.s,
+.x {
+    height: 50px;
+    left: 0;
+}
+
+.z,
+.y {
+    width: 50px;
+    top: 0px;
+}
+
+.s {
+    top: 0;
+}
+
+.x {
+    bottom: 0;
+}
+
+.z {
+    left: 0;
+}
+
+.y {
+    right: 0;
+}
+
+.zx {
+    background-image: url("../../img/index/d505e6b86b2ed88b83d4742bdc14ed94_origin.jpg");
+    background-position: 50% 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.zx a {
+    width: 220px;
+    height: 220px;
+    border: 15px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -110px;
+    text-align: center;
+    line-height: 190px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.zx a h3 {
+    color: #fff;
+}
+
+
+/*内容*/
+
+.zx1,
+.zx2,
+.zx3,
+.zx3,
+.zx4,
+.zx5 {
+    width: 100%;
+    background-color: #fff;
+    padding: 100px 120px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #cfcfcf;
+    margin-top: 50px;
+}
+
+[data-bt]>div:first-child {
+    height: 100px;
+    border-left: 15px solid #CFCFCF;
+    /* opacity:0; */
+}
+
+[data-bt] .bt img:first-child {
+    height: 40px;
+    margin-left: 10px;
+    padding-right: 20px;
+    border-right: 1px solid #cfcfcf;
+}
+
+[data-bt] .bt img:last-child {
+    height: 40px;
+    padding: 0 20px;
+}
+
+img {
+    height: auto;
+    width: auto;
+}
+
+
+/*第一版*/
+
+.zx1 .nr {
+    padding: 70px 0 0 25px;
+    box-sizing: border-box;
+}
+
+.zx1 .nr h4 {
+    margin-bottom: 50px;
+}
+
+.zx1 .nr video {
+    margin-top: 50px;
+    width: 80%;
+    height: 520px;
+}
+
+#Typing {
+    width: 65%;
+    height: 300px;
+    line-height: 2em;
+    color: #7a7a7a;
+    text-align: justify;
+}
+
+.zx1 .nr .vd1 {
+    opacity: 0;
+}
+
+
+/*第二版*/
+
+.zx2 .tp {
+    max-width: 100%;
+    margin: 70px 0;
+    text-align: center;
+}
+
+.zx2 .tp img {
+    margin: 0 7px;
+    width: 250px;
+    height: 150px;
+    opacity: 0;
+    position: relative;
+}
+
+
+/*时间轴*/
+
+.zx2>.nrrr {
+    position: relative;
+    height: 1000px;
+    opacity: 0;
+}
+
+.xtdh {
+    animation: xx 2s linear 0.5s forwards;
+}
+
+.zx2 .nrrr>.xt {
+    border-left: 4px solid black;
+    display: inline-block;
+    width: 0;
+    position: absolute;
+    left: 50%;
+    z-index: 0;
+}
+
+.dyd {
+    animation: dydh 0.7s linear 1s forwards;
+}
+
+.dyd1 {
+    animation: dydh1 0.7s linear 1s forwards;
+}
+
+.zx2 .nrrr>.dy {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    top: 50px;
+    opacity: 0;
+    position: absolute;
+    z-index: 20;
+}
+
+.ydh {
+    /*第一种*/
+    animation: ss1 0.8s linear 0.2s infinite;
+}
+
+.zx2 .nrrr .dy>.yy {
+    background-color: rgb(199, 199, 199);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-left: 2px;
+    margin-top: -18px;
+    opacity: 0;
+}
+
+.y1dh {
+    animation: sss1 0.8s linear infinite;
+}
+
+
+/*第二种*/
+
+.zx2 .nrrr .dy .y1 {
+    background-color: rgb(199, 199, 199);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-left: 2px;
+    margin-top: -30px;
+    opacity: 0;
+}
+
+.zx2 .nrrr .dy .xy {
+    background-color: rgb(209, 205, 205);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    opacity: 1;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    z-index: 20;
+}
+
+.zx2 .nrrr .dy .n {
+    position: relative;
+    top: -25px;
+    left: -35px;
+}
+
+.zx2 .nrrr .dy .n1 {
+    position: relative;
+    top: -25px;
+    left: 40px;
+}
+
+.zx2 .nrrr .dy .nr {
+    position: relative;
+    width: 300px;
+    border: 1px solid black;
+    top: -95px;
+    left: 50px;
+    transition: all 1s linear;
+}
+
+.zx2 .nrrr .dy .nr1 {
+    position: relative;
+    width: 300px;
+    border: 1px solid black;
+    top: -95px;
+    left: -320px;
+    transition: all 1s linear;
+}
+
+.zx2 .nrrr .dy .c3 {
+    position: absolute;
+    top: 43px;
+    right: -30px;
+}
+
+.zx2 .nrrr .dy .c2 {
+    position: absolute;
+    top: 43px;
+    ;
+    left: -30px;
+}
+
+
+/*第三版*/
+
+.zx3 .tp {
+    margin-left: 40px;
+}
+
+.zx3 .tp .img1 {
+    margin-top: 58px;
+}
+
+.zx3 .tp .img2 {
+    margin-top: 105px;
+}
+
+.zx3 .tp .img3 {
+    margin-left: -35px;
+}
+
+.zx3 .nr {
+    margin-top: 60px;
+    margin-left: 25%;
+    opacity: 0;
+}
+
+.zx3 .nr .title h4 {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+/*手风琴*/
+
+.hx {
+    border: 0;
+    width: 1px;
+    height: 50px;
+    border-left: 1px solid #cfcfcf;
+    position: relative;
+    top: 12px;
+    left: 15px;
+}
+
+.zx3 .nr>div {
+    display: inline-block;
+}
+
+.zx3 .nr .title {
+    border-radius: 3px;
+    padding: 5px 20px;
+    cursor: pointer;
+    position: relative;
+    top: -115px;
+}
+
+.zx3 .nr .content {
+    width: 0;
+    overflow: hidden;
+    transition: all .5s linear;
+}
+
+.zx3 .nr .content>div {
+    width: 300px;
+    height: 300px;
+}
+
+.zx3 .nr .in {
+    width: 300px;
+}
+
+.zx3 .tp img {
+    opacity: 0;
+    position: relative;
+}
+
+
+/*第四版*/
+
+.zx4 .case div .grid-content {
+    height: auto;
+    width: auto;
+    display: inline-block;
+    border: 1px solid #cfcfcf;
+    margin: 0 20px 25px 0;
+    opacity: 0;
+    position: relative;
+    transition: transform 0.4s linear;
+}
+
+.case .grid-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.case .grid-content .grid-shade {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #5E5E5E;
+    font-size: 20px;
+    display: none;
+    padding: 20px 0 0 20px;
+}
+
+.case .grid-content .grid-shade .grid-enter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*第五版*/
+
+.zx5 {
+    height: 705px;
+}
+
+.zx5 .d1:hover .left {
+    left: 5px;
+}
+
+.zx5 .d1:hover .right {
+    right: 5px;
+}
+
+.zx5 .u1 {
+    width: 3620px;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+}
+
+.zx5 .u1>li {
+    width: 905px;
+    float: left;
+}
+
+.zx5 .u1>li .img1 {
+    padding: 150px 140px;
+    border: 1px solid rgba(0, 0, 0, .4);
+}
+
+.zx5 .u1>li .img2 {
+    width: 452px;
+    height: 348px;
+    margin-left: -3px;
+}
+
+.zx5 .left,
+.right {
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    top: 40%;
+    border-radius: 3px;
+    transition: all 300ms linear;
+}
+
+.zx5 .left {
+    left: -40px;
+    background: url("../../img/craftsman/sprite_l.png") no-repeat 50% 50%;
+}
+
+.zx5 .right {
+    right: -40px;
+    background: url("../../img/craftsman/sprite_r.png") no-repeat 50% 50%;
+}
+
+
+/*楼层*/
+
+.lift {
+    width: 40px;
+    position: fixed;
+    z-index: 1000;
+    left: -40px;
+    top: 40%;
+    transition: all 0.3s linear;
+}
+
+.list li,
+li.top {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    text-align: center;
+    line-height: 40px;
+    background: #7a7a7a;
+    opacity: 0.5;
+    margin-bottom: 2px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.list li.hov {
+    background: rgba(258, 258, 258, 0.5);
+    color: #000;
+}
+
+
+/*轮播点击*/
+
+.lbdj {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -5000;
+    /*display: none;*/
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.lbdj .lbzz {
+    position: relative;
+    top: 200px;
+}
+
+.lbdj .lbzz .cgwz {
+    font-family: "华文行楷";
+    font-size: 80px;
+    position: absolute;
+    top: -120px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.lbdj .carousel {
+    padding: 20px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.lbdj .carousel>* {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.lbdj .carousel figure {
+    margin: 0;
+    width: 40%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.lbdj .carousel figure img {
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 0 0px;
+}
+
+.lbdj .carousel figure img:not(:first-of-type) {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.lbdj .carousel nav button {
+    margin: 0 30px;
+    cursor: pointer;
+    color: #333;
+    background: none;
+    padding: 0;
+}
+
+.lbdj .lbzz .prev {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: white;
+}
+
+.lbdj .lbzz .next {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-left-color: white;
+}
+
+
+/* 动画 */
+
+.btdh20 {
+    animation: bounceInLeft 1s linear forwards;
+}
+
+.ani_load {
+    animation: load 0.6s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.ani_load1 {
+    animation: load1 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.ani_load2 {
+    animation: load2 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes load {
+    0% {
+        opacity: 0;
+        top: 60px;
+    }
+    100% {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+@keyframes load1 {
+    0% {
+        left: -60px;
+    }
+    100% {
+        opacity: 1;
+        left: 0px;
+    }
+}
+
+@keyframes load2 {
+    0% {
+        right: -60px;
+    }
+    100% {
+        opacity: 1;
+        right: 0px;
+    }
+}
+
+@keyframes nrdh {
+    0% {
+        opacity: 0;
+        left: -500px;
+    }
+    100% {
+        opacity: 1;
+        left: -320px;
+    }
+}
+
+@keyframes nrdh1 {
+    0% {
+        opacity: 0;
+        left: 230px;
+    }
+    100% {
+        opacity: 1;
+        left: 50px;
+    }
+}
+
+@keyframes nrdh2 {
+    0% {
+        opacity: 1;
+        left: -320px;
+    }
+    100% {
+        opacity: 0;
+        left: -500px;
+    }
+}
+
+@keyframes nrdh3 {
+    0% {
+        opacity: 1;
+        left: 50px;
+    }
+    100% {
+        opacity: 0;
+        left: 230px;
+    }
+}
+
+@keyframes xx {
+    0% {
+        height: 0px;
+    }
+    100% {
+        height: 1000px;
+    }
+}
+
+@keyframes ss {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(0.8);
+        opacity: 0.3;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+    75% {
+        transform: scale(0.8);
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+}
+
+@keyframes ss1 {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes sss1 {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+.ddd {
+    font-family: "华文行楷";
+    font-size: 49px;
+    width: 220px;
+    height: 220px;
+    border: 15px solid white;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    left: 46%;
+    top: 35%;
+    transition: all 1.5s ease;
+}
+
+.ddd:hover {
+    /* margin: % auto 0; */
+    background: rgba(255, 255, 255, 0.4);
+    color: #333333;
+    border-color: #333333;
+}

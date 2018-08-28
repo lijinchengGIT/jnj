@@ -1,0 +1,21 @@
+img{
+	border:0;
+	vertical-align:middle;
+}
+.lf{
+	float:left;
+}
+.rf{
+	float:right;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dd,pre,img,input,div{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+

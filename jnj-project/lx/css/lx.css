@@ -1,0 +1,283 @@
+section {
+    text-align: right;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.banner ul {
+    /* float: left; */
+    padding: 50px;
+    /* width: 100%; */
+    height: 100%;
+    line-height: 100%;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.banner ul li {
+    /* padding: 50px; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* text-decoration: none; */
+    list-style: none;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+.z1 {
+    width: 100%;
+    height: 50px;
+    background: url("../../img/index/big，back.jpg");
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    /* background: black; */
+    z-index: 100;
+}
+
+.z2 {
+    width: 100%;
+    height: 50px;
+    background: url("../../img/index/big，back.jpg") no-repeat 0 -935px;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    /* background: black; */
+}
+
+.z3 {
+    width: 50px;
+    height: 100%;
+    /* background: black; */
+    position: absolute;
+    left: 0;
+    z-index: 100;
+}
+
+.z4 {
+    width: 50px;
+    height: 100%;
+    /* background: black; */
+    position: absolute;
+    right: 0;
+    z-index: 100;
+}
+
+.ccc {
+    width: 100%;
+    float: right;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0px;
+    text-align: left;
+    position: relative;
+    -webkit-transform: rotate(0deg) scale(1) translate(0%, 0%);
+    transform: rotate(0deg) scale(1) translate(0%, 0%);
+    -webkit-transition: all 1.7s ease;
+    transition: all 1.7s ease;
+    background-attachment: scroll;
+    background-position-x: 0%;
+    background-position-y: 50%;
+    background-image: url(../../img/index/5.jpg);
+    overflow: hidden;
+}
+
+.foot_lc {
+    float: right;
+    margin-right: 50px;
+}
+
+.foot_lc li {
+    float: left;
+    margin-left: 15px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.foot_lc li a {
+    color: rgb(125, 125, 125)!important;
+}
+
+.foot_lc li a:hover {
+    color: rgb(0, 0, 0)!important;
+}
+
+.ddd {
+    font-family: "华文行楷";
+    font-size: 49px;
+    width: 220px;
+    height: 220px;
+    border: 15px solid white;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    left: 46%;
+    top: 35%;
+    transition: all 1.5s ease;
+}
+
+.ddd:hover {
+    /* margin: % auto 0; */
+    background: rgba(255, 255, 255, 0.4);
+    color: #333333;
+    border-color: #333333;
+}
+
+.d1 {
+    background: #333333;
+    width: 0;
+    height: 2000px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(45deg);
+    transform-origin: 0 100%;
+    opacity: .9;
+    transition: all 2s ease;
+}
+
+.d1w {
+    /* right: 200px; */
+    width: 60%
+}
+
+.dddX {
+    top: 30%;
+    opacity: 1;
+}
+
+.dtext {
+    color: white;
+    width: 30%;
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: 100;
+    line-height: 30px;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.dtext1 {
+    opacity: 1;
+}
+
+.title {
+    color: rgb(250, 223, 187);
+    text-align: left;
+    margin-left: 15px
+}
+
+.hr {
+    width: 90%;
+    border-bottom: 1px solid white;
+}
+
+.pt {
+    margin-top: 10px;
+}
+
+.pt>img {
+    float: left;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url('../微信\ \(1\).png') no-repeat;
+    transition: all .5s ease;
+}
+
+.logo2 {
+    background: url('../微博\ \(1\).png') no-repeat
+}
+
+.logo3 {
+    background: url('../电脑2\ \(1\).png') no-repeat;
+    margin-left: 50px;
+}
+
+.logo:hover {
+    background: url('../微信.png') no-repeat
+}
+
+.logo2:hover {
+    background: url('../微博.png') no-repeat
+}
+
+.logo3:hover {
+    background: url('../电脑2.png') no-repeat
+}
+
+.pttitle {
+    bottom: 20px;
+    right: 90px;
+    position: absolute;
+    /* border: 1px solid crimson; */
+    font-size: 12px;
+    color: rgb(189, 189, 189)
+}
+
+.pttitle div {
+    float: left;
+    margin-left: 15px;
+}
+
+.pttitle1 {
+    margin-right: 20px
+}
+
+.ccc3 {
+    background: url('../ca60dcd7c11a9207a676cfde224856ee718904ff41cce-h7tFFm.jpg')
+}
+
+.ljc {
+    width: 300px;
+    height: 100px;
+    background: #333333;
+    font-size: 35px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    line-height: 100px;
+    text-align: center;
+    transition: all 2s ease;
+    background: url('../微信图片_20180816171717.png') no-repeat;
+}
+
+.ljc1 {
+    width: 300px;
+    height: 350px;
+    line-height: 350px;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    background-position: 50px 100px;
+}
+
+
+/* .pzz {
+    background: rgba(68, 68, 68, 0.7);
+    transition: all 1s ease;
+}
+
+.pzz1 {
+    background: rgba(68, 68, 68, 0);
+} */
+
+
+/* var point = new BMap.Point(120.140641, 30.283191); */

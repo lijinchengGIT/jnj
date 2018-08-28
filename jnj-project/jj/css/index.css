@@ -1,0 +1,643 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none
+}
+
+#left,
+#right,
+#top,
+#bottom,
+#content {
+    background: url(../img/index/bigback.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: fixed;
+}
+
+#left {
+    width: 50px;
+    left: 0;
+    z-index: 10;
+}
+
+#right {
+    width: 50px;
+    right: 0;
+    z-index: 10;
+}
+
+#top {
+    height: 50px;
+    top: 0;
+    z-index: 10;
+}
+
+#bottom {
+    height: 50px;
+    bottom: 0;
+    z-index: 10;
+}
+
+#content {
+    top: 49px;
+    left: 49px;
+    z-index: -100;
+}
+
+#a1:before {
+    content: "";
+    display: table;
+}
+
+#a2,
+#a3,
+#a4,
+#a5,
+#a6,
+#a7,
+#a8 {
+    width: 96.5%;
+    height: 705/*625*/
+    px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-left: 3.5%;
+}
+
+
+/* -----------------模块一------------------ */
+
+#a1 {
+    width: 100%;
+    height: 705/*655*/
+    px;
+    background: url(../img/index/first.jpg);
+    background-position: 50%, 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.mouse {
+    display: inline-block;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    height: 80px;
+}
+
+.touch {
+    margin: auto;
+    background: transparent;
+    border: 15px solid white;
+    width: 220px;
+    height: 220px;
+    line-height: 155px;
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 5%;
+    transition: all 2s ease;
+}
+
+.touch:hover {
+    border: 15px solid #3e393e;
+    background: white;
+    opacity: .6;
+}
+
+.touch:hover .a1font {
+    color: #3e393e;
+}
+
+.a1font {
+    font-family: "华文行楷";
+    font-size: 49px!important;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    transition: all 2s ease;
+}
+
+
+/* -----------------模块二------------------ */
+
+#a2 {
+    margin-top: 30px;
+    position: relative;
+}
+
+div.a2left {
+    width: 255px;
+    height: 450px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background: rgb(250, 250, 250);
+    padding-left: 3%;
+    padding-top: 30px;
+}
+
+div.a2left p {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+div.a2right {
+    width: 755px;
+    height: 450px;
+    position: absolute;
+    padding-top: 30px;
+    right: 80px;
+}
+
+.click {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.click:hover {
+    background: black;
+    opacity: .6;
+    transition: All 0.7s ease;
+    transform: rotate(0deg) scale(1) translate(0%, 0%);
+}
+
+
+/* -----------------模块三------------------ */
+
+div.a3left {
+    width: 50%;
+    height: 100%;
+}
+
+.a3left01 {
+    width: 100%;
+    height: 56%;
+    background: url(../img/we/a95e0ad122da3b3614da53e79fc8fd8f_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 1%;
+}
+
+.a3left02 {
+    width: 100%;
+    height: 43%;
+    background: url(../img/we/90cdc135ad9c61eae9c93004ff5b5f8e_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+div.a3right {
+    width: 49%;
+    height: 100%;
+    margin-left: 1%;
+}
+
+.a3font {
+    height: 30%;
+}
+
+.a3font img {
+    padding: 8% 10% 10% 10%;
+}
+
+.a3pic {
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.a3p1 {
+    width: 49%;
+    height: 100%;
+    background: url(../img/we/e4f370193ba3e2aef3ec7e6690eb9cc0_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a3p2 {
+    width: 49%;
+    height: 100%;
+    margin-left: 2%;
+}
+
+.a3p3 {
+    width: 100%;
+    height: 35%;
+    background: url(../img/we/69598995981b0d4d18d349ebacb18ec3_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a3p4 {
+    height: 65%;
+}
+
+.a3p4 img {
+    width: 90%;
+    padding: 30% 5% 10% 5%;
+}
+
+.aimg {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    display: inline-block;
+}
+
+
+/* -----------------模块四------------------ */
+
+.a4l {
+    width: 24%;
+}
+
+.a4l1 {
+    height: 49.5%;
+    background: url(../img/we/d1f69c359ea3811153dd1b80dd08b352_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 3%;
+}
+
+.a4l2 {
+    height: 49%;
+    background: url(../img/we/cb61ef80eae526f003633ea848e05827_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a4m {
+    width: 49%;
+}
+
+.a4font {
+    height: 30%;
+}
+
+.a4font img {
+    padding: 8% 10% 5% 10%;
+}
+
+.a4m1 {
+    height: 70%;
+    background: url(../img/we/5b77e928b4557c7040542fb5ac5b9389_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a4r {
+    width: 25%;
+}
+
+.a4r1 {
+    height: 49%;
+    background: url(../img/we/c11ac3443fdaa23307cdd1f7a310b6ca_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 2%;
+}
+
+.a4r2 {
+    height: 49%;
+}
+
+.a4r2 img {
+    width: 90%;
+    padding: 20% 5% 10% 5%;
+}
+
+
+/* -----------------模块五------------------ */
+
+.a5l {
+    width: 50%;
+    margin-right: 1%;
+}
+
+.a5l1 {
+    height: 59%;
+    background: url(../img/we/6acfecf828bf3d56b74ace440b2c2fe6_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 2%;
+}
+
+.a5l2 {
+    height: 39%;
+    background: url(../img/we/72899dc14976430e7f057d2bd27cc292_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a5r {
+    width: 49%;
+}
+
+.a5font {
+    height: 30%;
+}
+
+.a5font img {
+    padding: 8% 10% 10% 10%;
+}
+
+.a5pic {
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.a5pic:before {
+    content: "";
+    display: table;
+}
+
+.a5r1 {
+    height: 100%;
+    width: 49%;
+    background: url(../img/we/bb1f458e048f4b327e1726db6a568ed4_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-right: 2%;
+}
+
+.a5r2 {
+    height: 100%;
+    width: 49%;
+}
+
+.a5r2p1 {
+    height: 50%;
+    width: 100%;
+    background: url(../img/we/c43c261d4c7c89656daabf8da0839018_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a5r2font {
+    height: 50%;
+}
+
+.a5r2font img {
+    width: 90%;
+    padding: 20% 5% 10% 5%;
+}
+
+
+/* -----------------模块六------------------ */
+
+.a6left {
+    width: 25%;
+}
+
+.a6l1 {
+    height: 100%;
+    background: url(../img/we/447f77b230ae1f960835b644029a36b0_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a6right {
+    margin-left: 1%;
+    width: 74%;
+}
+
+.a6font {
+    height: 35%;
+}
+
+.a6font img {
+    padding: 10% 10% 0% 10%;
+}
+
+.a6r1 {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.a6r1:before {
+    content: "";
+    display: table;
+}
+
+.a6r1p1 {
+    width: 49%;
+    height: 100%;
+    margin-right: 1%;
+}
+
+.a6p1pic {
+    height: 40%;
+    width: 100%;
+    background: url(../img/we/3b756a1d7887d766fc08e89c20f91ad3_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a6p1font {
+    height: 60%;
+}
+
+.a6p1font img {
+    width: 90%;
+    padding: 10% 5% 3% 5%;
+}
+
+.a6r1p2 {
+    width: 50%;
+    height: 100%;
+    background: url(../img/we/e51513e234134b56aed9c9eb1d9596d3_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+/* -----------------模块七------------------ */
+
+.a7left {
+    width: 49%;
+    margin-right: 1%;
+}
+
+.a7font {
+    height: 35%;
+}
+
+.a7font img {
+    padding: 10% 10% 10% 10%;
+}
+
+.a7l1 {
+    height: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.a7l1:before {
+    content: "";
+    display: table;
+}
+
+.a7l1left {
+    width: 49%;
+    height: 100%;
+    background: url(../img/we/a12eb8bd3ef8582d66af3b8c9445a335_origin.jpg);
+    background-size: cover;
+    background-position: 40% 50%;
+    margin-right: 1%;
+}
+
+.a7l1right {
+    width: 50%;
+    height: 100%;
+}
+
+.a7l1img {
+    height: 50%;
+    background: url(../img/we/d5226a2620fd836ad51f826029386d2e_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a7l1font {
+    height: 50%;
+}
+
+.a7l1font img {
+    width: 90%;
+    padding: 10% 5% 10% 5%;
+}
+
+.a7right {
+    width: 50%;
+}
+
+.a7r1 {
+    height: 49%;
+    background: url(../img/we/833b21baf4e6731636b21b3894f2c71c_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 1%;
+}
+
+.a7r2 {
+    height: 50%;
+    background: url(../img/we/80b8c75ec2ddba57ae4d6e4b63ce1d2f_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+/* -----------------模块八------------------ */
+
+.a8left {
+    width: 49%;
+    margin-right: 1%;
+}
+
+.a8img {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.a8p1 {
+    width: 49%;
+    height: 100%;
+    background: url(../img/we/26aa23036d3f7b8918259615785dc4b7_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-right: 1%;
+}
+
+.a8p2 {
+    width: 50%;
+    height: 100%;
+    background: url(../img/we/9d2626cbc5dc6ca97c56cb9d95f2d830_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a8p3 {
+    height: 49%;
+    margin-top: 1%;
+    background: url(../img/we/9259538745fdba554a1c0e1f9847f7a8_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a8right {
+    width: 50%;
+}
+
+.a8r1 {
+    height: 30%;
+}
+
+.a8r1 img {
+    padding: 10% 10% 10% 10%;
+}
+
+.a8r2 {
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.a8img2 {
+    height: 100%;
+    width: 49%;
+    margin-right: 1%;
+    background: url(../img/we/1813686769d32508eeceb7cd16013d63_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a8img3 {
+    width: 50%;
+    height: 100%;
+}
+
+.a8pic {
+    width: 100%;
+    height: 60%;
+    background: url(../img/we/dcd0a51ffa1f3efe1615b9f8cd6ed5f1_origin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.a8font {
+    height: 40%;
+}
+
+.a8font img {
+    height: 70%;
+    width: 85%;
+    padding: 10% 0% 10% 5%;
+}
+
+
+/* -----------------hover------------------ */

@@ -1,0 +1,220 @@
+.dk{
+    border:1px solid red;
+    overflow: hidden;
+    width:1000px;
+    height:500px;
+    margin:40px auto;
+    position: relative;
+}
+.xk{
+    border:1px solid blue;
+    width:500px;
+    height:1000px;
+    position: absolute;
+    left:25%;
+}
+.t1{
+    width:0;
+    height:0;
+    border:20px solid transparent;
+    border-bottom-color:black;
+}
+.x1{
+    width:0;
+    height:0;
+    border:20px solid transparent;
+    border-top-color:black;
+    margin-top: 10px;
+}
+
+.x {
+    animation: xx 2s linear 0.5s forwards;
+    border-left: 4px solid black;
+    display: inline-block;
+    width: 0;
+    /* height: 1000px; */
+    margin-left: 50%;
+}
+.dyd{
+    animation: dydh 0.7s linear 1s forwards;
+}
+.dyd1{
+    animation: dydh1 0.7s linear 1s forwards;
+}
+.dy {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    /*left: 48.89%;*/
+    top:50px;
+    opacity:0;
+    position: absolute;
+}
+.ydh{
+    /*第一种*/
+    animation: ss1 0.8s linear 0.2s infinite;
+}
+.y {
+
+    /*第二种*/
+    /*animation: ss 0.8s linear 0.2s infinite alternate;*/
+    background-color: rgb(199, 199, 199);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-left: 2px;
+    margin-top: -18px;
+    opacity: 0;
+}
+.y1dh{
+    animation: sss1 0.8s linear infinite;
+}
+/*第二种*/
+.y1 {
+    background-color: rgb(199, 199, 199);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-left: 2px;
+    margin-top: -30px;
+    opacity: 0;
+}
+
+.xy {
+    background-color: rgb(209, 205, 205);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    opacity: 1;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    z-index: 20;
+}
+.n{
+    position: relative;
+    top: -25px;
+    left:-35px;
+    /*opacity: 0;*/
+}
+.n1{
+    position: relative;
+    top: -25px;
+    left:40px;
+    /*opacity: 0;*/
+}
+.nr{
+    position: relative;
+    width:300px;
+    /*height: 50px;*/
+    border:1px solid black;
+    top:-95px;
+    left:50px;
+    /*opacity: 0;*/
+    /*overflow: hidden;*/
+    /*transform: scale(0.8);*/
+    transition: all 1s linear;
+}
+.nr1{
+    position: relative;
+    width:300px;
+    /*height: 50px;*/
+    border:1px solid black;
+    top:-95px;
+    left:-320px;
+    /*overflow: hidden;*/
+    /*opacity: 0;*/
+}
+.c3{
+    position: absolute;
+    top:43px;
+    right:-30px;
+}
+.c2{
+    position: absolute;
+    top: 43px;;
+    left:-30px;
+}
+@keyframes dydh {
+    0%{
+        opacity:0;
+        left:47%;
+    }
+    100%{
+        opacity:1;
+        left:48.89%;
+    }
+}
+@keyframes dydh1 {
+    0%{
+        opacity:0;
+        right:47%;
+    }
+    100%{
+        opacity:1;
+        right:48.65%;
+    }
+}
+@keyframes xx {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 1000px;
+    }
+}
+
+@keyframes ss {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(0.8);
+        opacity: 0.3;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+    75% {
+        transform: scale(0.8);
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+}
+
+@keyframes ss1 {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes sss1 {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
